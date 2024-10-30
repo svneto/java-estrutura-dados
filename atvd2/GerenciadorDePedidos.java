@@ -3,7 +3,7 @@ public class GerenciadorDePedidos {
     private int proximoId;
 
     public GerenciadorDePedidos() {
-        filaPrioridade = new FilaPrioridade();
+        filaPrioridade = new FilaPrioridade(10);
         proximoId = 1; // ID dos pedidos começa em 1
     }
 
